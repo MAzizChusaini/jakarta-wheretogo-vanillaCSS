@@ -1,6 +1,3 @@
-Where To-Go
-Where To-Go is a web application that helps users explore various places to visit in Jakarta, including food spots, hangout places, and experiences. The application provides a user-friendly interface to browse through different categories and locations.
-
 # Project Documentation
 
 ## Overview
