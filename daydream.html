@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="content.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">d a y d r e a m i n g</a>
+    </header>
+    
+    <!-- popup card -->
+    <div>
+      <button class="popup-btn">Surprise me!</button>
+    </div>
+    <div class="popup" id="popup">
+      <div class="overlay"></div>
+      <div class="popup-content">
+        <h2>ARE YOU SURE?</h2>
+        <p>because i'm about to take you to this awesome spot with the tastiest food. Are you still down?</p>
+        <div class="controls">
+          <button class="submit-btn">yeah!</button>
+          <button class="close-btn">close</button>
+        </div>
+      </div>
+    </div>
+
+      <!-- dropdown Menu -->
+    <div class="dropdown">
+      <button class="dropbtn">Area</button>
+      <div class="dropdown-content">
+        <a href="#" id="all-link">All</a><br>
+        <a href="#" data-filter="Jaksel">Jakarta selatan</a>
+        <a href="#" data-filter="Jakpus">Jakarta pusat</a>
+        <a href="#" data-filter="Jakut">Jakarta utara</a>
+        <a href="#" data-filter="Jakbar">Jakarta barat</a>
+      </div>
+    </div>
+
+    <!-- data -->
+    <div class="container">
+      <div class="photo-gallery">
+        <div class="column">
+            <div class="photo">
+              <img src="img/bengong/Jakbar/Nama tempat 1/omahlibrary.jpg" alt="" data-category="Jakbar" />
+            </div>
+            <div class="photo">
+              <img src="img/11.jpg" alt="" data-category="Jakpus" />
+            </div>   
+        </div>
+
+        <div class="column">
+          <div class="photo">
+            <img src="img/13.jpg" alt="" data-category="Jakpus" />
+          </div>
+          <div class="photo">
+            <img src="img/7.jpg" alt="" data-category="Jaksel"/>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="photo">
+            <img src="img/9.jpg" alt="" data-category="Jaksel"/>
+          </div>
+          <div class="photo">
+            <img src="img/bengong/Jaksel/Tempat 2/Snapinsta.app_307938548_424788266343011_6659639323573292665_n_1080.jpg" alt="" data-category="Jaksel"/>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="photo">
+            <img src="img/12.jpg" alt="" data-category="Jaksel"/>
+          </div>
+          
+        </div>
+
+        <div class="column">
+          <div class="photo">
+            <img src="img/bengong/Jakut/Tempat 1/Snapinsta.app_467119599_793468542872799_5245977020469789764_n_1080.jpg" alt="" data-category="Jakut"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>

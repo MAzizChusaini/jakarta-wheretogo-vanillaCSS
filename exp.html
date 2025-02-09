@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="content.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">e x p e r i e n c e</a>
+    </header>
+    
+    <!-- popup card -->
+    <div>
+      <button class="popup-btn">Surprise me!</button>
+    </div>
+    <div class="popup" id="popup">
+      <div class="overlay"></div>
+      <div class="popup-content">
+        <h2>ARE YOU SURE?</h2>
+        <p>because i'm about to take you to this awesome spot with the tastiest food. Are you still down?</p>
+        <div class="controls">
+          <button class="submit-btn">yeah!</button>
+          <button class="close-btn">close</button>
+        </div>
+      </div>
+    </div>
+
+      <!-- dropdown Menu -->
+    <div class="dropdown">
+      <button class="dropbtn">Area</button>
+      <div class="dropdown-content">
+        <a href="#" id="all-link">All</a><br>
+        <a href="#" data-filter="Jaksel">Jakarta selatan</a>
+        <a href="#" data-filter="Jakpus">Jakarta pusat</a>
+        <a href="#" data-filter="Jakut">Jakarta utara</a>
+        <a href="#" data-filter="Jakbar">Jakarta barat</a>
+      </div>
+    </div>
+
+    <!-- data -->
+    <div class="container">
+      <div class="photo-gallery">
+        <div class="column">
+            <div class="photo">
+              <img src="img/exp/jaksel/tempat 1/images (27).jpeg" alt="" data-category="Jaksel" />
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="photo">
+              <img src="img/exp/jakbar/tempat 1/Snapinsta.app_358522524_235382512685541_3557527001468991067_n_1080.jpg" alt="" data-category="Jakbar"/>
+            </div>
+            <div class="photo">
+              <img src="img/exp/jakut/tempat 3/images (26).jpeg" alt="" data-category="Jakut"/>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="photo">
+             <img src="img/exp/jakpus/tempat 1/images (28).jpeg" alt="" data-category="Jakpus"/>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="photo">
+              <img src="img/exp/jakut/tempat 1/images (29).jpeg" alt="" data-category="Jakut"/>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="photo">
+              <img src="img/exp/jakut/tempat 2/images (25).jpeg" alt="" data-category="Jakut"/>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
